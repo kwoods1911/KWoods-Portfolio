@@ -1,0 +1,523 @@
+/*#66fcf1- header text color*/
+/*#0b0c10- background header/icon color*/
+/*#c5c6c7- text color*/
+/*#1f2833- border color*/
+/*#45a29e- footer/button*/
+
+
+body{
+	margin:0;
+	text-align: center;
+	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header{
+	width:100%;
+	padding:15px 0;
+	margin:0;
+	background-color: #1f2833;
+	height:40px;
+	text-align: left;
+}
+
+.section_heading h1{
+	font-size: 45px;
+	color:#45a29e;
+}
+
+.section_heading h3{
+	color:#fff;
+}
+
+.container{
+	/*USED TO CENTER ALIGN ELEMENTS IN A SECTION*/
+	margin:0 auto;
+	width:80%;
+}
+
+.mobile_header{
+	padding:10px 10px;
+	margin:0 auto;
+}
+
+.mobile_header li{
+	display: inline-block;
+	padding: 0 70px;
+}
+.mobile_logo{
+	float:left;
+	margin-left: 30px;
+	padding:8px;
+	background-color:#66fcf1;
+	border-radius: 3em;
+}
+
+
+.mobile_logo a{
+	text-decoration: none;
+	font-size:15px; 
+	color:#fff;
+	height: 100%;
+	width: 100%;
+	font-family: 'Rock Salt', cursive;
+}
+
+.dropdown_btn{
+float: right;
+margin-right: 30px;
+}
+
+
+.nav_btn{
+	background-color: #0b0c10;
+ 	color:#fff;
+ 	padding:5px;
+ 	font-size: 20px;
+ 	border:1px solid #45a29e;
+ 	margin:4px;
+}
+
+
+/*Drop down content hidden by default*/
+.dropdown_content{
+	/*margin-top: 50px;*/
+	border-top:1px solid #fff;
+	position: absolute;
+	display:none;
+	background-color: rgba(15,7,0, .5);
+	z-index: 0;
+	width: 100%;
+}
+
+
+.dropdown_content a{
+ 	color:#fff;
+ 	text-decoration:none;
+ 	display:block;
+ 	border-radius: 5px;
+}
+.mobile_nav{
+	margin:0;
+}
+
+ ul.mobile_nav{
+	padding-left: 0;
+}
+
+.mobile_nav li{
+	margin:0;
+	list-style: none;
+	padding: 12px 16px;
+	width:auto;
+	font-size:18px;
+}
+
+.mobile_nav li:hover{
+	background-color: rgba(31,40,50,0.8);
+	border:1px solid #333;
+	transition: .5s;
+}
+
+
+.dsk-top_nav{
+	display: none;
+}
+
+
+#showcase{
+	min-height: 750px;
+	/*height:auto;*/
+	text-align: center;
+	background-color: none;
+}
+
+#showcase h4{
+	margin:0;
+	font-size: 20px;
+}
+
+#showcase h1{
+	margin:0;
+	font-size: 3em;
+	line-height: 60px;
+}
+
+#showcase .bg_image{
+	position: absolute;
+	background: #eee url("images/showcase_2.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	opacity: 0.5;
+}
+
+#greeting{
+	padding-top: 300px;
+}
+
+#greeting h1{
+	color:#66fcf1;
+}
+
+#greeting h4{
+	color:#66fcf1;
+}
+
+#greeting button{
+	padding: 20px 10px;
+	border: 2px solid #45a29e;
+	border-radius: 2px;
+	background-color: transparent;
+	margin: 30px 20px;
+}
+
+#greeting button:hover{
+	background-color: #45a29e;
+	transition: .5s;
+}
+#greeting a{
+	text-decoration: underline;
+	color:#fff;
+	font-size: 2em;
+}
+
+
+
+
+
+.skill_card{
+	display: inline-block;
+	background-color: #1f2833;
+	position: relative;
+	height:auto;
+	margin:30px 10px;
+	border-radius: 5px;
+}
+
+
+.skill_icon{
+	height:auto;
+}
+
+.skill_icon i{
+	font-size: 40px;
+	color:#fff;
+}
+
+.skill_header{
+	background-color: #0b0c10;
+	padding:10px 0;
+}
+
+.skill_header h3{
+	font-size: 20px;
+	color:#fff;
+}
+
+.skill_level{
+padding:0;
+}
+
+
+.skill_level ul li{
+	display: inline;
+	padding:0;
+}
+
+.skill_level ul{
+	padding-left: 0;
+}
+
+.skill_description{
+	padding:20px 15px;
+	color:#fff;
+}
+
+.colored{
+	color:#66fcf1;
+}
+
+
+
+
+
+
+
+
+#Portfolio{
+	height:auto;
+	background-color: #1f2833;
+	padding: 15px 0;
+}
+
+
+.project_container{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	/*float: left;*/
+}
+
+.project_card{
+	position: relative;
+	display: inline-block;
+	position: relative;
+	height:auto;
+	width:100%;
+}
+
+
+
+
+.project_card img{
+height:100%;
+width: 100%;
+}
+
+
+.project_header{
+	background-color: white;
+	height:90px;
+	border-bottom: 1px solid #333;
+	width: 100%;
+}
+
+.project_header h3{
+	padding-top: 20px;
+	margin:0;
+	font-size: 1.6em;
+}
+
+.project_description{
+	text-align: center;
+	display: none;
+	position: absolute;
+	color:#fff;
+	background-color: rgba(102,252,241,.4);
+	width: 100%;
+	height: 100%;
+}
+
+.element_position{
+	padding:40px 0;
+}
+
+.project_description p{
+	font-size: 2vh;
+}
+
+.btn{
+	margin-bottom: 0 auto;
+	background-color: transparent;
+	color:#fff;
+	border:2px solid #45a29e;
+	padding:10px 30px;
+	/*width: 50%;*/
+}
+
+.btn:hover{
+	background-color: #45a29e;
+	transition: .5s;
+}
+
+.btn a{
+	color:#fff;
+	font:3vh;
+}
+
+
+#aboutMe{
+	height:auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#myPhoto{
+	max-height:320px;
+	width:240px;
+	margin:0 auto;
+}
+
+#myPhoto img{
+	height: 100%;
+	width: 80%;
+}
+
+#contactMe{
+	height:auto;
+	background-color: #1f2833;
+}
+
+.contactCard{
+	text-align: left;
+	padding:30px 0;
+}
+
+.contactCard p{
+	color:#fff;
+}
+
+
+.contactCard a{
+	color:#fff;
+}
+
+footer{
+	background-color: #45a29e;
+}
+
+footer p{
+	padding:20px 0;
+	margin:0;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE DESIGN - This webpage is design with mobile first in mind*/
+
+
+@media(min-width: 520px){
+	.element_position{
+	padding:60px 0;
+}
+
+}
+
+@media(min-width: 600px){
+	.element_position{
+	padding:70px 0;
+}
+
+}
+
+@media(min-width: 800px){
+	.element_position{
+	padding:90px 0;
+}
+
+}
+
+
+@media(min-width: 1200px){
+	.element_position{
+	padding:120px 0;
+}
+
+}
+
+@media(min-width: 1400px){
+	.element_position{
+	padding:140px 0;
+}
+
+}
+
+
+
+
+/*Tablet*/
+@media(min-width:768px){
+	/*Grid display is applied to #Skills section and Portfolio section*/
+	.grid{
+		width:100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap:.5em;
+	}
+/*Portfolio section styling*/
+	.project_image{
+	height: 300px;
+	}
+}
+
+@media(min-width: 1024px){
+	.dropdown_btn{
+		display: none;
+	}
+
+	.dsk-top_nav{
+		display: inline-block;
+	}
+
+	.dsk-top_nav_wrap {
+		margin-left: 350px;
+	}
+
+	.dsk-top_nav_wrap li{
+		display:inline;
+		padding: 0 20px;
+
+	}
+
+	.dsk-top_nav_wrap li a{
+		color:#fff;
+		text-decoration: none;
+		padding:8px;
+		border-radius: 3px;
+	}
+
+	.dsk-top_nav_wrap li a:hover{
+		transition: .5s;
+		color:#FFF;
+		text-decoration: underline;
+		background-color: #45a29e;
+		border: 1px solid:#45a29e;
+	}
+}
+
+
+
+@media(min-width: 1200px){
+
+
+	.project_image{
+		height: 360px;
+	}
+}
+/*Large laptops*/
+@media(min-width:1440px){
+	/*Grid display is applied to #Skills section and Portfolio section*/
+	.grid{
+		width:100%;
+		display: grid;
+		grid-auto-rows: auto;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		column-gap:.5em;
+	}
+/*Portfolio section styling*/
+
+	.p1{
+		grid-row: 1/2;
+		grid-column: 1/3;
+	}
+	.p2{
+		grid-row: 1/2;
+		grid-column: 3/5;
+	}
+	.p3{
+		grid-row: 2/2;
+		grid-column: 1/3;
+	}
+	.p4{
+		grid-row: 2/2;
+		grid-column: 3/5;
+	}
+	.project_image{
+	height: 360px;
+	}
+}
+
+
+
