@@ -143,6 +143,7 @@ margin-right: 30px;
 
 #showcase .bg_image{
 	position: absolute;
+	background-position: fixed;
 	background: #eee url("images/showcase_2.jpg");
 	background-position:center;
 	background-repeat: no-repeat;
@@ -154,20 +155,20 @@ margin-right: 30px;
 }
 
 #greeting{
-	padding-top: 300px;
+	padding:300px 0;
 }
 
 #greeting h1{
-	color:#66fcf1;
+	color:#3C5AE8
 }
 
 #greeting h4{
-	color:#66fcf1;
+	color:#3C5AE8;
 }
 
 #greeting button{
 	padding: 20px 10px;
-	border: 2px solid #45a29e;
+	border: 4px solid #45a29e;
 	border-radius: 2px;
 	background-color: transparent;
 	margin: 30px 20px;
@@ -176,11 +177,17 @@ margin-right: 30px;
 #greeting button:hover{
 	background-color: #45a29e;
 	transition: .5s;
+	color:#fff;
 }
 #greeting a{
 	text-decoration: underline;
-	color:#fff;
+	color:#3C5AE8;
 	font-size: 2em;
+}
+
+#greeting a:hover{
+	color:#fff;
+	transition: .5s;
 }
 
 
@@ -394,6 +401,19 @@ footer p{
 }
 
 }
+
+
+@media(max-height: 560px){
+	#greeting{
+	padding:100px 0;
+}
+
+}
+
+
+
+
+
 
 @media(min-width: 600px){
 	.element_position{
