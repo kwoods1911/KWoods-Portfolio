@@ -177,11 +177,10 @@ margin-right: 30px;
 #greeting button:hover{
 	background-color: #45a29e;
 	transition: .5s;
-	color:#fff;
 }
 #greeting a{
 	text-decoration: underline;
-	color:#3C5AE8;
+	color:#fff;
 	font-size: 2em;
 }
 
