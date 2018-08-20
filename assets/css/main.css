@@ -11,6 +11,7 @@ body{
 	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header{
+
 	width:100%;
 	padding:15px 0;
 	margin:0;
@@ -155,7 +156,11 @@ margin-right: 30px;
 }
 
 #greeting{
-	padding:300px 0;
+	padding:250px 0;
+}
+
+#greeting button a{
+	text-decoration: none;
 }
 
 #greeting h1{
@@ -296,6 +301,10 @@ width: 100%;
 	font-size: 1.6em;
 }
 
+.project_header h4{
+	margin:5px 0;
+}
+
 .project_description{
 	text-align: center;
 	display: none;
@@ -307,7 +316,11 @@ width: 100%;
 }
 
 .element_position{
-	padding:40px 0;
+	padding:20px 0;
+}
+
+.element_position h3{
+	margin:5px 0;
 }
 
 .project_description p{
@@ -466,6 +479,13 @@ footer p{
 		display: none;
 	}
 
+	
+
+	.mobile_nav{
+		display: none;
+	}
+
+
 	.dsk-top_nav{
 		display: inline-block;
 	}
@@ -538,5 +558,50 @@ footer p{
 	}
 }
 
+
+/*Large Screens*/
+@media(min-width: 2560px){
+
+	.dsk-top_nav{
+		padding-left:400px;
+	}
+
+
+	.dsk-top_nav li{
+		padding: 10px 30px;
+		margin:0 40px;
+	}
+	.dsk-top_nav li a{
+		font-size:25px;
+	}
+
+	.project_image img{
+		height: 600px;
+	}
+
+	.project_description{
+		height:600px;
+	}
+
+	#greeting{
+		padding:500px 0;
+	}
+
+	#greeting h1{
+		font-size:80px;
+	}
+
+	#greeting h4{
+		font-size:40px;
+	}
+
+	#Skills{
+		padding:200px 0;
+	}
+
+	.skill_card{
+		height:450px;
+	}
+}
 
 
