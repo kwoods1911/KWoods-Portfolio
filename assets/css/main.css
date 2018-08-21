@@ -125,8 +125,9 @@ margin-right: 30px;
 
 
 #showcase{
+	position: relative;
 	min-height: 750px;
-	/*height:auto;*/
+	height:800px;
 	text-align: center;
 	background-color: none;
 }
@@ -156,7 +157,13 @@ margin-right: 30px;
 }
 
 #greeting{
-	padding:250px 0;
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:0;
+	left:0;
+	margin:auto;
+
 }
 
 #greeting button a{
@@ -442,26 +449,12 @@ footer p{
 }
 
 
-@media(min-width: 1200px){
-	.element_position{
-	padding:120px 0;
-}
-
-}
-
-@media(min-width: 1400px){
-	.element_position{
-	padding:140px 0;
-}
-
-}
-
-
-
-
 /*Tablet*/
 @media(min-width:768px){
 	/*Grid display is applied to #Skills section and Portfolio section*/
+	#showcase{
+		height: 800px;
+	}
 	.grid{
 		width:100%;
 		display: grid;
@@ -470,22 +463,30 @@ footer p{
 	}
 /*Portfolio section styling*/
 	.project_image{
-	height: 300px;
+	height: 250px;
 	}
 }
 
+
+@media(min-width: 900px){
+	#showcase{
+		/*height:1200px;*/
+	}
+}
+
+
+
+
+
+
 @media(min-width: 1024px){
+
 	.dropdown_btn{
 		display: none;
 	}
-
-	
-
 	.mobile_nav{
 		display: none;
 	}
-
-
 	.dsk-top_nav{
 		display: inline-block;
 	}
@@ -514,19 +515,31 @@ footer p{
 		background-color: #45a29e;
 		border: 1px solid:#45a29e;
 	}
+
+	
 }
-
-
 
 @media(min-width: 1200px){
 
+	.element_position{
+	padding:120px 0;
+}
 
-	.project_image{
+.project_image{
 		height: 360px;
 	}
+
 }
+
+
+
+
+
+
 /*Large laptops*/
-@media(min-width:1440px){
+@media(min-width:1400px){
+
+
 	/*Grid display is applied to #Skills section and Portfolio section*/
 	.grid{
 		width:100%;
@@ -556,7 +569,14 @@ footer p{
 	.project_image{
 	height: 360px;
 	}
+
+		.element_position{
+	padding:140px 0;
 }
+}
+
+
+
 
 
 /*Large Screens*/
