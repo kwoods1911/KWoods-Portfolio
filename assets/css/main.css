@@ -257,13 +257,6 @@ padding:0;
 	color:#66fcf1;
 }
 
-
-
-
-
-
-
-
 #Portfolio{
 	height:auto;
 	background-color: #1f2833;
@@ -286,14 +279,10 @@ padding:0;
 	width:100%;
 }
 
-
-
-
 .project_card img{
 height:100%;
 width: 100%;
 }
-
 
 .project_header{
 	background-color: white;
@@ -323,7 +312,13 @@ width: 100%;
 }
 
 .element_position{
-	padding:20px 0;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:0;
+	left:0;
+	margin:auto;
+
 }
 
 .element_position h3{
@@ -340,7 +335,6 @@ width: 100%;
 	color:#fff;
 	border:2px solid #45a29e;
 	padding:10px 30px;
-	/*width: 50%;*/
 }
 
 .btn:hover{
@@ -414,41 +408,6 @@ footer p{
 /*RESPONSIVE DESIGN - This webpage is design with mobile first in mind*/
 
 
-@media(min-width: 520px){
-	.element_position{
-	padding:60px 0;
-}
-
-}
-
-
-@media(max-height: 560px){
-	#greeting{
-	padding:100px 0;
-}
-
-}
-
-
-
-
-
-
-@media(min-width: 600px){
-	.element_position{
-	padding:70px 0;
-}
-
-}
-
-@media(min-width: 800px){
-	.element_position{
-	padding:90px 0;
-}
-
-}
-
-
 /*Tablet*/
 @media(min-width:768px){
 	/*Grid display is applied to #Skills section and Portfolio section*/
@@ -466,18 +425,6 @@ footer p{
 	height: 250px;
 	}
 }
-
-
-@media(min-width: 900px){
-	#showcase{
-		/*height:1200px;*/
-	}
-}
-
-
-
-
-
 
 @media(min-width: 1024px){
 
@@ -521,9 +468,6 @@ footer p{
 
 @media(min-width: 1200px){
 
-	.element_position{
-	padding:120px 0;
-}
 
 .project_image{
 		height: 360px;
@@ -570,9 +514,7 @@ footer p{
 	height: 360px;
 	}
 
-		.element_position{
-	padding:140px 0;
-}
+
 }
 
 
