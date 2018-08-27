@@ -1,0 +1,17 @@
+Web site review list
+
+Check list for all websites
+
+Use a system for padding - Base font size set to 16px and use em unite after that. So 1em for padding is 16px. Base 8 gives you a system where you always have even divisions (32, 16, 8, 4, 2, 1, .5, .25, etc) so it makes it easy to do the math and get even spacing.
+
+Review Site on mobile - some elements on mobile are skinny and difficult to look at.
+
+Align all text to the left. Only headers should be aligned to the center. (2 lines max).
+
+Body and sub headings should be left alligned.
+
+Ensure all photo selections are relevant to the website.
+Example of it a funiture site use photos of furniture and not fixtures.
+
+limit the amount of dead links.
+
