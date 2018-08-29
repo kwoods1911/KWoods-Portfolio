@@ -204,7 +204,9 @@ margin-right: 30px;
 
 
 
-
+#Skills{
+	padding:30px 0;
+}
 
 .skill_card{
 	display: inline-block;
@@ -261,7 +263,7 @@ padding:0;
 #Portfolio{
 	height:auto;
 	background-color: #1f2833;
-	padding: 15px 0;
+	padding: 64px 0;
 }
 
 
@@ -352,6 +354,11 @@ width: 100%;
 #aboutMe{
 	height:auto;
 	padding: 20px 0;
+	text-align: left;
+	padding:50px 0;
+}
+
+#aboutMe h1{
 	text-align: center;
 }
 
@@ -428,6 +435,12 @@ footer p{
 }
 
 @media(min-width: 1024px){
+	header{
+		position: fixed;
+		top:0;
+		z-index: 2;
+		border-bottom:2px solid #fff;
+	}
 
 	.dropdown_btn{
 		display: none;
