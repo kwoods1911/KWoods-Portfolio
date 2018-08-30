@@ -525,13 +525,17 @@ footer p{
 		grid-column: 3/5;
 	}
 	.project_image{
-	height: 360px;
+	height: 400px;
 	}
 
 
 }
 
-
+@media(min-width: 2000px){
+	.project_image{
+		height: 500px;
+	}
+}
 
 
 
