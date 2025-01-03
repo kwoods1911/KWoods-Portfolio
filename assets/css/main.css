@@ -530,6 +530,14 @@ footer p{
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		column-gap:.5em;
 	}
+
+	.grid_work_experience{
+		width:100%;
+		display: grid;
+		grid-auto-rows: auto;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap:.5em;
+	}
 /*Portfolio section styling*/
 
 	.p1{
