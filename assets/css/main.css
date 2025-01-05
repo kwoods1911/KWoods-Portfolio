@@ -621,3 +621,20 @@ footer p{
 }
 
 
+.downloadBtn{
+	float:right;
+	margin-left: 30px;
+	padding:8px;
+	background-color:#66fcf1;
+	border-radius: 3em;
+}
+
+.downloadBtn span{
+	color: #fff;
+}
+
+.downloadBtn:hover{
+	cursor: pointer;
+}
+
+
