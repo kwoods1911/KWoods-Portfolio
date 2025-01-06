@@ -85,7 +85,7 @@ margin-right: 30px;
 	border-top:1px solid #fff;
 	position: fixed;
 	display:none;
-	background-color: rgba(15,7,0, .5);
+	background-color: rgba(15,7,0, .9);
 	top:71px;
 	z-index: 3;
 	width: 100%;
@@ -95,7 +95,6 @@ margin-right: 30px;
 .dropdown_content a{
  	color:#fff;
  	text-decoration:none;
- 	/*display:block;*/
  	border-radius: 5px;
 }
 .mobile_nav{
@@ -115,7 +114,7 @@ margin-right: 30px;
 }
 
 .mobile_nav li:hover{
-	background-color: rgba(31,40,50,0.8);
+	background-color: rgba(69,162,158,0.8);
 	/*border:1px solid #333;*/
 	transition: .5s;
 }
