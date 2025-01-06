@@ -13,3 +13,8 @@ $('.project_card').hover(
 //Add slide show function
 
 });
+
+
+// select all cards by ID
+//add click event listener
+//on click open link in new tab.
