@@ -403,13 +403,16 @@ a .project_header{
 	width: 80%;
 }
 
+
+
+
 #contactMe{
 	height:auto;
 	background-color: #1f2833;
 }
 
 .contactCard{
-	text-align: center;
+	text-align: left;
 	padding:30px 0;
 }
 
@@ -423,7 +426,8 @@ a .project_header{
 }
 
 .contactCard label{
-	color: #fff;
+	color: #45a29e;
+	text-align: left;
 }
 
 #success_message{
@@ -437,6 +441,10 @@ a .project_header{
 	background-position: center;
 }
 
+form{
+ display: block;
+}
+
 .contactCard{
 	border-radius: 5px;
   	background-color: #f2f2f2;
@@ -446,18 +454,9 @@ a .project_header{
 #contactMe .container{
 	padding: 10px;
 }
-.contactCard input{
-	margin: 8px;
-	width: 80%;
-	height: 25px;
-	outline: none;
-}
 
 .contactCard textarea{
-	width: 40%;
-	height: 80px;
-	margin: 8px;
-	outline: none;
+	height: 150px;
 }
 
 .contactCard .contactBtn{
@@ -472,7 +471,14 @@ a .project_header{
 }
 
 .contact_input_forms{
+	width: 100%;
+  	padding: 12px;
 	border: 1px solid #45a29e;
+	border-radius: 4px;
+	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+	resize: vertical;
 }
 
 
