@@ -5,6 +5,7 @@ const templateID = "template_yawx4mn";
 
 let contactForm;
 let successMessage;
+let loaderImage;
 
 
 (function() {
@@ -19,10 +20,24 @@ let successMessage;
 let displaySuccessMessage = function (){
     contactForm = document.getElementById('contact-form');
     successMessage = document.getElementById('success_message');
+    loaderImage = document.getElementById('loader-image');
     contactForm.style.display = 'none';
-    successMessage.style.display = 'block';
+    loaderImage.style.display = 'block';
 
-    //display hidden success message
+    // display loading animation for a period of time.
+    setTimeout(function (){
+        loaderImage.style.display = 'none';
+        //display hidden success message
+        successMessage.style.display = 'block';
+    }, 2000);
+    // after 2 seconds 
+    //hide image
+
+    
+    
+    
+
+    
 }
 
 
@@ -32,7 +47,8 @@ window.onload = function() {
         event.preventDefault();
         // these IDs from the previous steps
         emailjs.sendForm(formID, templateID, this)
-            .then(() => {
+            .then((e) => {
+                console.log(e);
                 console.log('SUCCESS!');
                 // display message to user.
                 // show loading message.
