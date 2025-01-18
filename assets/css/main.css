@@ -482,6 +482,12 @@ form{
 }
 
 
+input[type=submit]:hover {
+	background-color: #45a29e;
+	cursor: pointer;
+  }
+
+
 
 footer{
 	background-color: #45a29e;
