@@ -1,4 +1,4 @@
-document.querySelectorAll('li a').forEach(anchor => {
+document.querySelectorAll('li a, button a').forEach(anchor => {
     anchor.addEventListener('click', function (e){
         e.preventDefault();
         const targetID = this.getAttribute('href').substring(1);
