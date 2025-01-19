@@ -1,4 +1,4 @@
-const emailPublicKey = "AWQmwtMwdZpw11Saa";
+const emailPublicKey = "AWQmwtMwdZpw11Saa111";
 const formID = "contact_service_id";
 const templateID = "template_yawx4mn";
 
@@ -24,20 +24,11 @@ let displaySuccessMessage = function (){
     contactForm.style.display = 'none';
     loaderImage.style.display = 'block';
 
-    // display loading animation for a period of time.
+    // after 2 secs hide loading animation and display message.
     setTimeout(function (){
         loaderImage.style.display = 'none';
-        //display hidden success message
         successMessage.style.display = 'block';
     }, 2000);
-    // after 2 seconds 
-    //hide image
-
-    
-    
-    
-
-    
 }
 
 
