@@ -538,7 +538,17 @@ footer p{
 
 
 /*RESPONSIVE DESIGN - This webpage is design with mobile first in mind*/
+@media(max-width: 320px){
+	.downloadBtn {
+		font-size: 10px;
+	}
+}
 
+@media(max-width: 375px){
+	.downloadBtn {
+		font-size: 10px;
+	}
+}
 
 /*Tablet*/
 @media(min-width:768px){
@@ -578,7 +588,7 @@ footer p{
 	}
 
 	.dsk-top_nav_wrap {
-		margin-left: 350px;
+		margin-left: 50px;
 	}
 
 	.dsk-top_nav_wrap li{
@@ -611,9 +621,18 @@ footer p{
 .project_image{
 		height: 360px;
 	}
-
+	.dsk-top_nav_wrap {
+		margin-left: 350px;
+	}
 	
 
+}
+
+
+@media(min-width: 1300px) {
+	.dsk-top_nav_wrap {
+		margin-left: 250px;
+	}
 }
 
 
