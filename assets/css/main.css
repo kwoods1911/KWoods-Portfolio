@@ -443,7 +443,7 @@ a .project_header{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+/* ------------------- Contact Form ------------------------------------- */
 form{
  display: block;
 }
@@ -490,6 +490,29 @@ input[type=submit]:hover {
 	background-color: #45a29e;
 	cursor: pointer;
   }
+
+#error_message{
+display:none;
+text-align: center;
+}
+
+#error_message h1 {
+	font-size: 70px;
+	margin: 8px;
+}
+
+#error_message a{
+	color:#66fcf1;
+}
+#error_message span{
+	font-size: 20px;
+
+}
+
+#validation_error_message{
+	color: #fc544b;
+	text-align: center;
+}
 
 
 

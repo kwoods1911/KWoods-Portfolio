@@ -502,12 +502,7 @@
 							<h4>Food Delivery Service</h4>
 						</div>
 					</a>
-
 				</div>
-
-
-
-
 			</div>
 		</div>
 
@@ -601,19 +596,24 @@
 			<!-- Add border and background -->
 			<div class="contactCard">
 				<div id="loader-image" style="background-image: url('assets/css/images/loader.gif')"></div>
-				<form id="contact-form">
+				<form id="contact-form" novalidate>
 					<input type="hidden" name="contact_number" value="697483">
+					
 					<label>Name</label>
 					<br>
-					<input class="contact_input_forms" type="text" name="user_name" placeholder="Your name">
+					<input id="name" class="contact_input_forms" type="text" name="user_name" placeholder="Your name">
 					<br>
 					<label>Email</label>
 					<br>
-					<input class="contact_input_forms" type="email" name="user_email" placeholder="youemail@emai">
+					<input id="email" class="contact_input_forms" type="email" name="user_email" placeholder="youemail@email.com">
 					<br>
 					<label>Message</label>
 					<br>
-					<textarea class="contact_input_forms" name="message" placeholder="You Message...."></textarea>
+					<textarea id="message" class="contact_input_forms" name="message" placeholder="You Message...." maxlength="1000"></textarea>
+					<br>
+					<span>Max character count: <span id="character_count">1000</span></span>
+
+					<div id="validation_error_message"></div>
 					<br>
 					<input class="contactBtn" type="submit" value="Send">
 				</form>
@@ -623,6 +623,16 @@
 					<h1>Thank you for getting in touch! </h1>
 					<span>I appreciate you contacting me and will get back in touch with you soon! Have a great day!</span>
 					<!-- insert smiley face -->
+				</div>
+
+				<div id="error_message">
+					<h1>OOPS !</h1>
+					<!-- insert forwning face -->
+					<span>Error Code: 400  </span>
+					<br>
+					<span>Sorry there is an issue with the server at the moment.</span>
+					<br>
+					<span>You can email me directly at <a href="#">khariwoods3@gmail.com</a> while I try to resolve that issue.</span>
 				</div>
 			</div>
 		</div>
