@@ -9,6 +9,15 @@ let errorMessage = document.getElementById('error_message');
 let loaderImage = document.getElementById('loader-image');
 
 
+let client_name = document.getElementById('name');
+let email = document.getElementById('email');
+let message = document.getElementById('message');
+
+
+let error_validation_message = document.getElementById('validation_error_message');
+
+
+
 (function() {
     // https://dashboard.emailjs.com/admin/account
     emailjs.init({
@@ -21,7 +30,6 @@ let loaderImage = document.getElementById('loader-image');
 let displaySuccessMessage = function (){
     contactForm.style.display = 'none';
     loaderImage.style.display = 'block';
-
     // after 2 secs hide loading animation and display message.
     setTimeout(function (){
         loaderImage.style.display = 'none';
@@ -46,6 +54,24 @@ let displayErrorMessage = function(){
 window.onload = function() {
     contactForm.addEventListener('submit', function(event) {
         event.preventDefault();
+        //perform form validation
+        if(!email.value){
+            error_validation_message.innerText = 'Email is required !';
+            email
+            return;
+        } 
+
+        if(!client_name.value){
+            error_validation_message.innerText = 'Name field required !';
+            return;
+        } 
+
+        if(!message.value){
+            error_validation_message.innerText = 'A message is required !';
+            return;
+        } 
+
+       
         // these IDs from the previous steps
         emailjs.sendForm(formID, templateID, this)
             .then((e) => {
