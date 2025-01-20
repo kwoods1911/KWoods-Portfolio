@@ -502,12 +502,7 @@
 							<h4>Food Delivery Service</h4>
 						</div>
 					</a>
-
 				</div>
-
-
-
-
 			</div>
 		</div>
 
@@ -610,13 +605,13 @@
 					<br>
 					<label>Email</label>
 					<br>
-					<input id="email" class="contact_input_forms" type="email" name="user_email" placeholder="youemail@email">
+					<input id="email" class="contact_input_forms" type="email" name="user_email" placeholder="youemail@email.com">
 					<br>
 					<label>Message</label>
 					<br>
-					<textarea id="message" class="contact_input_forms" name="message" placeholder="You Message...."></textarea>
+					<textarea id="message" class="contact_input_forms" name="message" placeholder="You Message...." maxlength="1000"></textarea>
 					<br>
-					<span>Max character count: </span>
+					<span>Max character count: <span id="character_count">1000</span></span>
 
 					<div id="validation_error_message"></div>
 					<br>
