@@ -443,9 +443,9 @@ a .project_header{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+/* ------------------- Contact Form ------------------------------------- */
 form{
- display: block;
+ display: none;
 }
 
 .contactCard{
@@ -491,8 +491,23 @@ input[type=submit]:hover {
 	cursor: pointer;
   }
 
+#error_message{
+display:block;
+text-align: center;
+}
 
+#error_message h1 {
+	font-size: 70px;
+	margin: 8px;
+}
 
+#error_message a{
+	color:#66fcf1;
+}
+#error_message span{
+	font-size: 20px;
+
+}
 footer{
 	background-color: #45a29e;
 }

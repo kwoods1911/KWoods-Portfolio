@@ -1,11 +1,12 @@
-const emailPublicKey = "AWQmwtMwdZpw11Saa111";
+const emailPublicKey = "AWQmwtMwdZpw11Saa11";
 const formID = "contact_service_id";
 const templateID = "template_yawx4mn";
 
 
-let contactForm;
-let successMessage;
-let loaderImage;
+let contactForm = document.getElementById('contact-form');
+let successMessage = document.getElementById('success_message');
+let errorMessage = document.getElementById('error_message');
+let loaderImage = document.getElementById('loader-image');
 
 
 (function() {
@@ -18,9 +19,6 @@ let loaderImage;
 
 
 let displaySuccessMessage = function (){
-    contactForm = document.getElementById('contact-form');
-    successMessage = document.getElementById('success_message');
-    loaderImage = document.getElementById('loader-image');
     contactForm.style.display = 'none';
     loaderImage.style.display = 'block';
 
@@ -31,23 +29,32 @@ let displaySuccessMessage = function (){
     }, 2000);
 }
 
+let displayErrorMessage = function(){
+    contactForm.style.display = 'none';
+    loaderImage.style.display = 'block';
+
+    // display error message
+      // after 2 secs hide loading animation and display message.
+      setTimeout(function (){
+        loaderImage.style.display = 'none';
+        errorMessage.style.display = 'block';
+    }, 2000);
+}
+
 
 
 window.onload = function() {
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
+    contactForm.addEventListener('submit', function(event) {
         event.preventDefault();
         // these IDs from the previous steps
         emailjs.sendForm(formID, templateID, this)
             .then((e) => {
-                console.log(e);
                 console.log('SUCCESS!');
-                // display message to user.
-                // show loading message.
-                //display success message to user.
                 displaySuccessMessage();
+
             }, (error) => {
                 console.log('FAILED...', error);
-                // display error to screen.
+                displayErrorMessage();
             });
     });
 }
