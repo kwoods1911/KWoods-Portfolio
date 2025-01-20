@@ -1,4 +1,4 @@
-const emailPublicKey = "AWQmwtMwdZpw11Saa11";
+const emailPublicKey = "AWQmwtMwdZpw11Saa";
 const formID = "contact_service_id";
 const templateID = "template_yawx4mn";
 
