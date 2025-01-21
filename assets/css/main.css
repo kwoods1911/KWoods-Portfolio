@@ -530,13 +530,6 @@ footer p{
 
 
 
-
-
-
-
-
-
-
 /*RESPONSIVE DESIGN - This webpage is design with mobile first in mind*/
 @media(max-width: 320px){
 	.downloadBtn {
@@ -622,7 +615,7 @@ footer p{
 		height: 360px;
 	}
 	.dsk-top_nav_wrap {
-		margin-left: 350px;
+		margin-left: 150px;
 	}
 	
 
