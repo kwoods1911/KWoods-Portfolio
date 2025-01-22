@@ -526,8 +526,12 @@ footer p{
 	color:#fff;
 }
 
-
-
+/* mobile styling */
+@media(min-width: 320px){
+	header{
+		border-bottom:2px solid #fff;
+	}
+}
 
 
 /*RESPONSIVE DESIGN - This webpage is design with mobile first in mind*/
