@@ -1,0 +1,15 @@
+I have utilized AWS services such as EC2 for hosting, S3 for storage, and RDS for database management, ensuring secure and scalable application deployments. I also hold an AWS Cloud Practitioner Certification.
+
+For the Red Island Seafood project, I designed and implemented CI/CD pipelines using AWS CodePipeline and CodeDeploy. This automation streamlined testing and deployment processes, significantly reducing downtime. The application is hosted on an EC2 instance, where I configured an Apache web server to serve the web application and set up a MySQL database for data storage.
+
+For the ThreeG project, I used a single EC2 instance that hosts both the Apache2 web server and the MySQL database. Additionally, I configured AWS Route 53 for DNS hosting to ensure reliable domain management and routing for the application.
+
+
+
+Responsive design is a crucial aspect of modern web development, ensuring that a website provides an optimal viewing and interaction experience across a wide range of devices. From the smallest smartphones to the largest desktop monitors, responsive design adapts the layout, content, and functionality of the website to suit the screen size, resolution, and orientation of each device.
+
+When I build websites, I prioritize ensuring that they are aesthetically pleasing and fully functional on all major devices. This involves using fluid grid layouts, flexible images, and media queries to adapt the design based on the user’s device characteristics. Whether it's a mobile phone, tablet, laptop, or desktop monitor, I aim to make sure that the website's content is easily readable, navigable, and visually appealing without requiring horizontal scrolling or zooming.
+
+Moreover, I focus on maintaining a consistent and intuitive user experience across all devices. I understand that a seamless experience is crucial to user satisfaction, regardless of whether the user is accessing the site from a high-resolution monitor or a smaller mobile screen. By employing mobile-first design principles and thorough testing on various screen sizes, I ensure that users can easily access and interact with the content, whether they are browsing on-the-go or at home.
+
+By making use of responsive design techniques, I ensure that the websites I develop not only look good but also provide a user-friendly interface across every platform. This approach helps create a consistent brand identity and ensures that the website meets the expectations of users, regardless of the device they use.

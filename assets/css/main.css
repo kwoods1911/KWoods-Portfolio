@@ -208,7 +208,7 @@ margin-right: 30px;
 }
 
 
-
+/* ---------- Skills ---------- */
 #Skills{
 	padding:30px 0;
 }
@@ -218,6 +218,8 @@ margin-right: 30px;
 	background-color: #1f2833;
 	position: relative;
 	height:auto;
+	/* max-height: 500px; */
+	/* overflow: hidden; */
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin:30px 10px;
 	border-radius: 5px;
